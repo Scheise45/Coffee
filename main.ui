@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -23,48 +22,27 @@
       <property name="rowCount">
        <number>0</number>
       </property>
-      <column>
-       <property name="text">
-        <string>ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Название</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Обжарка</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Молотый</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Описание</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Цена</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Объем</string>
-       </property>
-      </column>
      </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="buttonLayout">
+      <item>
+       <widget class="QPushButton" name="addButton">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="editButton">
+        <property name="text">
+         <string>Редактировать</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menubar"/>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
- <connections/>
 </ui>
